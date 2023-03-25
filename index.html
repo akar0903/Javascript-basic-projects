@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Miles to distance converter</h1>
+    <div class="container top">
+        <p>Type in number of miles and click to convert into kms</p>
+        <label for="miles-input">Enter Miles:</label>
+        <input type="number" id="miles-input" placeholder="Miles">
+        <button onclick="convertToKilometers()">Convert</button>
+        <p id="result-km"></p>
+    </div>
+    <div class="container bottom" id="answer">
+        <h2 class="invisible">Answer:</h2>
+    </div>
+    <h5>KMS to Miles</h5>
+    <div class="container top">
+        <p>Type in number of KMS and click to convert into miles</p>
+        <label for="km-input">Enter Kilometers:</label>
+        <input type="number" id="km-input" placeholder="Kilometers">
+        <button onclick="convertToMiles()">Convert</button>
+        <p id="result-miles"></p>
+    </div>
+    <div class="container bottom" id="ans">
+        <h2 class="invisible">Answer:</h2>
+    </div>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
